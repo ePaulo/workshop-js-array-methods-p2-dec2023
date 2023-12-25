@@ -1,0 +1,48 @@
+Workshop: Array Methods - 4 basic types
+There are over 40 array methods. Many, but not all, will be discussed.
+
+1) [WARNING] Methods that CHANGE* the original array:
+*ONLY use when programming logic requires UPDATING original array
+push() --> [*] add item(s) to end of array... returns length
+unshift() --> [] add item(s) to start of array... returns length
+pop() --> [] removes last item... returns removed item
+shift() --> [] removes first item... returns removed item
+reverse() --> [] reverses order "in place"... returns same reference
+sort() --> [] sorts items "in place"... returns the same reference
+splice() --> [*] removes/replaces/adds items... returns removed items
+
+
+2) Methods returning NEW array (WITHOUT changing original array):
+filter() --> [*] returns array of items passing "test" function
+slice() --> [*] returns array of selected items
+map() --> [*] returns array of items revised by "change" function
+toReversed() --> [] returns array with items in reverse order
+toSorted() --> [] returns array with items sorted
+toSpliced() --> [*] returns spliced (revised) array
+concat() --> [] returns new array with (unsorted) merged items
+with() --> [] returns array with changed item
+spread operator --> use to spread array items into a new array
+
+
+3) Methods returning single result (no changes to original array):
+length --> [*] returns number of items
+at() --> [] returns value at specified index
+some() --> [*] returns true if one item passes test
+every() --> [*] returns true if all items pass test
+find() --> [*] returns first item passing test
+findIndex() --> [] returns index of first item passing test
+indexOf() --> [] returns index of specified item
+includes() --> [*] returns true if array includes specified item
+isArray() --> [] returns true if parameter is an array with items
+join() --> [*] returns a string of the concatenated items
+reduce() --> [*] combining items, calculates an accumulated value
+
+
+4) Methods for looping through an array:
+forEach() --> [*] executes a function on each item
+Note: for asynchronous functions, use the for..of loop
+
+References:
+MDN Web Docs @ https://developer.mozilla.org/
+W3 Schools @ https://www.w3schools.com/
+Learn JavaScript Online [subscription] @ https://learnjavascript.online/
